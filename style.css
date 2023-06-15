@@ -50,16 +50,16 @@ body{
     overflow:hidden;
     transition: 0.5s;
 }
-.accordion .main-container.active .ans{
+.accordion .container.active .ans{
     height: 150px;
 
 }
-.accordion .main-container.active .qn{
+.accordion .container.active .qn{
     font-size:18px;
     transition:.5s;
 
 }
-.accordion .main-container.active .qn:after{
+.accordion .container.active .qn:after{
     content:"-";
     font-size:30px;
     transition:.5s;
